@@ -7,7 +7,7 @@
 # Requirement 
 * OpenCV 3.4.2 or later
 * tqdm 4.48.2 or later
-* albumentations 0.5.2 or later　※create_7segment_dataset_da.py を使用する場合のみ
+* albumentations 0.5.2 or later
 
 # Usage
 実行方法は以下です。

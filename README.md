@@ -1,8 +1,7 @@
 # 7seg-image-generator-for-Axross
-7セグメント表示の画像を生成するツールです。<br>
-主に機械学習の学習データセットに使用することを想定しています。<br>
+「Raspberry piでリアルタイムに7セグメントディスプレイを読み取るレシピ」用の7セグメント表示の画像を生成するツールです。<br>
 0~9、-(マイナス記号)、表示なしのデータを生成します。<br>
-<img src="https://user-images.githubusercontent.com/37477845/118017307-6c16de80-b391-11eb-9fc2-547f66f59e9f.png" width="400px">
+<img src="https://user-images.githubusercontent.com/37477845/118855777-24ec9880-b911-11eb-9d82-888b53a2010e.png" width="800px">
 
 # Requirement 
 * OpenCV 3.4.2 or later
@@ -53,28 +52,25 @@ python create_7segment_dataset.py
 デフォルト：30
 * --shift_x_min<br>
 セグメント表示のX軸方向シフトの最小ピクセル<br>
-デフォルト：-10
+デフォルト：-8
 * --shift_x_max<br>
 セグメント表示のX軸方向シフトの最大ピクセル<br>
-デフォルト：10
+デフォルト：8
 * --shift_y_min<br>
 セグメント表示のY軸方向シフトの最小ピクセル<br>
-デフォルト：-10
+デフォルト：-8
 * --shift_y_max<br>
 セグメント表示のY軸方向シフトの最大ピクセル<br>
-デフォルト：10
+デフォルト：8
 * --steps<br>
 各クラスを何枚ずつ生成するか<br>
-デフォルト：3000
+デフォルト：5000
 * --erase_debug_window<br>
 デバッグ表示用のウィンドウの非表示<br>
 デフォルト：指定なし
 * --seed<br>
 乱数シード<br>
 デフォルト：42
-
-また、「create_7segment_dataset.py」を用いるとデータ拡張を実施した状態で画像を生成します。<br>
-<img src="https://user-images.githubusercontent.com/37477845/118017348-7638dd00-b391-11eb-86e1-5fa2f32fcda4.png" width="400px">
 
 # Author
 高橋かずひと(https://twitter.com/KzhtTkhs)

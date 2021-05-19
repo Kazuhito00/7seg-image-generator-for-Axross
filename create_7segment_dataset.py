@@ -156,7 +156,7 @@ def main():
                 cv.waitKey(10)
 
             # 画像保存
-            save_path = os.path.join(dataset_dir, str(number_id),
+            save_path = os.path.join(dataset_dir, '{:02}'.format(number_id),
                                      '{:08}.png'.format(image_count))
             cv.imwrite(save_path, image)
             image_count += 1

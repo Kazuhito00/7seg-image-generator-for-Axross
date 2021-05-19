@@ -72,6 +72,9 @@ python create_7segment_dataset.py
 乱数シード<br>
 デフォルト：42
 
+# Original Repository
+[Kazuhito00/7seg-image-generator](https://github.com/Kazuhito00/7seg-image-generator)
+
 # Author
 高橋かずひと(https://twitter.com/KzhtTkhs)
  

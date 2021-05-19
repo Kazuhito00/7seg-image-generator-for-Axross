@@ -104,7 +104,7 @@ def main():
     # 格納ディレクトリ作成
     dataset_dir = 'dataset/'
     for number in range(12):
-        os.makedirs(dataset_dir + str(number), exist_ok=True)
+        os.makedirs(dataset_dir + '{:02}'.format(number), exist_ok=True)
 
     # データ拡張ファンクション作成
     augmentation = preprocessing_augmentation_function(0.1)

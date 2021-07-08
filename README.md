@@ -1,5 +1,5 @@
 # 7seg-image-generator-for-Axross
-「Raspberry piでリアルタイムに7セグメントディスプレイを読み取るレシピ」用の7セグメント表示の画像を生成するツールです。<br>
+「[Raspberry piでリアルタイムに7セグメントディスプレイを読み取るレシピ](https://axross-recipe.com/recipes/196)」用の7セグメント表示の画像を生成するツールです。<br>
 0~9、-(マイナス記号)、表示なしのデータを生成します。<br><br>
 <img src="https://user-images.githubusercontent.com/37477845/118855777-24ec9880-b911-11eb-9d82-888b53a2010e.png" width="800px">
 
